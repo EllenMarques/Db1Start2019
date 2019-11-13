@@ -7,7 +7,9 @@ import java.util.Scanner;
 // 4 - Método que divida dois números *
 // 5 - Método que diga se o número é par *
 // 6 - Método que receba dois números e diga qual é o maior *
-// 7 - Método que a partir de um valor inicial, mostre a quantidade de n ímpares até ele. // esse é legal
+// 7 - Método que a partir de um valor inicial, mostre a quantidade de n ímpares até ele. *
+
+//acabou alguma duvida?não, foi muito explicativo senhor
 
 public class main {
 	// declaração dos métodos
@@ -73,7 +75,8 @@ public class main {
 			}
 		}
 		
-		return qtde;
+		return qtde; // entendeu?esse ultimo fiquei um pouco perdida
+
 	}
 	
 	// metodo que roda o programa
