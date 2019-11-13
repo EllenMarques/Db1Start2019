@@ -9,7 +9,6 @@ import java.util.Scanner;
 // 6 - Método que receba dois números e diga qual é o maior *
 // 7 - Método que a partir de um valor inicial, mostre a quantidade de n ímpares até ele. *
 
-//acabou alguma duvida?não, foi muito explicativo senhor
 
 public class main {
 	// declaração dos métodos
@@ -47,18 +46,19 @@ public class main {
 		//tipo o programa sempre executa de cima pra baixo e da esquerda pra direita
 		// ele vai executar o q ta em parenteses primeiro e depois o que vem depois na direita
 		// num % 2 sempre vai retorna 0 ou 1
-		// depois eu faço uma comparação se pra ver se é 0 e isso vai retorna um boolean igual fiz no navegador
+
 		return (num % 2) == 0;
 	}
 	
 	
-	// o maior tem n formas de fazer, fazer a mais simples
+	
 	static int maior(int num1, int num2) {
 		// a função vai parar de ler no primerio retorno
 		if (num1 > num2) {
 			// se entrar aqui ele nao vai ler o return num2
 			return num1;
 		}
+		 
 		
 		return num2;
 	}
@@ -75,11 +75,11 @@ public class main {
 			}
 		}
 		
-		return qtde; // entendeu?esse ultimo fiquei um pouco perdida
+		return qtde; 
 
 	}
 	
-	// metodo que roda o programa
+	
 	public static void main(String[] args) {
 		// variavel q pega os valores
 		Scanner scanner = new Scanner(System.in);
@@ -125,7 +125,6 @@ public class main {
 		System.out.println("\n\nDigite outro numero: ");
 		int numero= scanner.nextInt();
 		int qtdeImapres = quantidadeImpares(numero);
-		// ué heuheuehuehe
-		System.out.println("\nQuantidade impares:" + qtdeImapres); // wtf kk
+		System.out.println("\nQuantidade impares:" + qtdeImapres);
 	}
 }
